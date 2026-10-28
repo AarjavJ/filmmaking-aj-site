@@ -35,7 +35,7 @@
       <section id="send-next"><div class="shell send"><div><h3>Found something worth keeping?</h3><p>In the next chat, send the link, upload the image, or describe the section. I’ll recommend the cleanest way to add it.</p></div><a class="button primary" href="#top">Keep building</a></div></section>
     </main>
     <footer class="shell"><span>Filmmaking AJ</span><span>Built as a living archive.</span></footer>
-    <script src="content.js"></script>
+    <script src="content.js?v=2"></script>
     <script>
       const data=window.FILMMAKING_CONTENT||{collections:[],watch:[],references:[],experiments:[],problems:[]};
       document.querySelector('#collection-cards').innerHTML=data.collections.map(item=>`<article class="card tone-${item.tone||'violet'}"><div class="card-top"><span>${item.type||'Collection'}</span><span>${item.tag||''}</span></div><div><h3>${item.title}</h3><p>${item.text}</p></div></article>`).join('');
