@@ -7,5 +7,6 @@ window.FILMMAKING_CONTENT = {
   ],
   watch: [],
   references: [],
-  experiments: []
+  experiments: [],
+  study: { promptPath: "study-prompt.txt" }
 };
